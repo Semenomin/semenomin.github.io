@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans+Condensed:300|Open+Sans:400,800');
 *{
     margin: 0;
     padding: 0;
@@ -10,23 +11,72 @@ a{
 }
 body {
     background: #0c0c0c url(Img/Header.png) no-repeat fixed;
-    padding-top: 900px;
+    padding-top: 660px;
     padding-bottom: 0;
     background-size: cover;
 }
+.text{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 #info {
     background: white;
-width: auto;
+    width: auto;
     height:14in;
-    padding: 0 5in;
+    padding: 0.5in 1.5in;
+    background-size: cover;
 }
+h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
+#info h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 6em;
+    text-align: center;
+}
+.photo_box{
+    float:left;
+    height: 1000px;
+}
+#photo_block1, #photo_block3{
+    float:left;
+    width:23%;
+}
+#photo_block2{
+    width:54%;
+}
+.photo_box_box{
+    width:100%;
+    height:50%;
+}
+.photo{
+    padding: 13px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+#main_photo{
+padding-top: 100px;
+}
+.photo_main img{
+    width: 100%;
+    height: 100%;
+}
+.photo_aladova{
+background: url(img/About3.png) no-repeat center;
+    height: 406px;
+
+}
+.photo span{
+    color: gray}
 #audio{
 
     height:900px;
     padding-left: 5in;
     padding-right: 5in;
     background-size: cover;
-    background: #2e2e2e url(img/audio.png) no-repeat 50% 50%;
+    background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     background-blend-mode: multiply;
 }
 #gallery{
@@ -35,7 +85,59 @@ width: auto;
 }
 #helper {
     height:6in;
-    background: #000000 url(img/help.png) no-repeat left top;
+    background: #000000 url(img/help.png) no-repeat left top fixed;
+}
+#form {
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#form h5 {
+text-align: center;
+    font-size: 6em;
+    color: white;
+}
+#form_input {
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 22%;
+    font-size: 1.1em;
+}
+#form_input label {
+    color: white;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: 'Amatic SC', cursive;
+}
+#form_input label > span {
+    color: red;
+}
+#form_input input,#form_input textarea {
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid white;
+    font-size: 0.9em;
+    color: black;
+}
+#form_input input:focus,#form_input textarea:focus {
+    border-color: #333;
+}
+.btn {
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+.btn:hover {
+    background: white;
+    color:black;
 }
 #footer{
     height: 1in;
