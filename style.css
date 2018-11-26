@@ -10,15 +10,34 @@ a{
     text-decoration: none;
 }
 body {
+    padding-top: 2%;
     background: #0c0c0c url(Img/Header.png) no-repeat fixed;
-    padding-top: 660px;
-    padding-bottom: 0;
-    background-size: cover;
+    background-size:100%;
 }
 .text{
     font-family: 'Open Sans Condensed', sans-serif;
 }
+.header
+{
+    width: 100%;
+}
+.header a:hover{
+    font-family: 'Amatic SC', cursive;
+    color: lightgray;
+    font-size: 3.5vw;
+    margin-top: 20px;
+}
+.header a{
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    font-size: 3.5vw;
+    margin-left:7%;
+    margin-right:7%;
+
+}
+
 #info {
+    margin-top:45%;
     background: white;
     width: auto;
     height:14in;
