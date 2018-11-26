@@ -40,19 +40,20 @@ body {
     margin-top:45%;
     background: white;
     width: auto;
-    height:14in;
-    padding: 0.5in 1.5in;
+    height:80vw;
+    padding: 10% 10%;
     background-size: cover;
+    font-size:2vw;
 }
 h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 #info h2 {
     font-family: 'Amatic SC', cursive;
-    font-size: 6em;
+    font-size: 7vw;
     text-align: center;
 }
 .photo_box{
     float:left;
-    height: 1000px;
+    height: 50vw;
 }
 #photo_block1, #photo_block3{
     float:left;
@@ -64,29 +65,38 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 .photo_box_box{
     width:100%;
     height:50%;
+    text-align: center;
 }
 .photo{
-    padding: 13px;
-    text-align: center;
-    font-size: 25px;
+    padding: 10%;
+    font-size:1.5vw;
     font-family: 'Amatic SC', cursive;
 }
+.photo_empty{
+
+}
 .photo img{
+    display: table-cell;
+    vertical-align: middle;
     width: 100%;
     height: 100%;
 }
 #main_photo{
-padding-top: 100px;
+    margin-top: 9vw;
+padding-top: 1vw;
+}
+.photo_main{
+    text-align: center;
 }
 .photo_main img{
     width: 100%;
     height: 100%;
-}
-.photo_aladova{
-background: url(img/About3.png) no-repeat center;
-    height: 406px;
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
 
 }
+
 .photo span{
     color: gray}
 #audio{
