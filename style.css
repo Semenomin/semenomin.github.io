@@ -41,8 +41,7 @@ body {
     background: white;
     width: auto;
     height:80vw;
-    padding: 10% 10%;
-    padding-top: 5%;
+    padding: 5% 10% 10%;
     background-size: cover;
     font-size:2vw;
 }
@@ -106,9 +105,9 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
     height:20%;
 }
 #audio{
-    height:700px;
-    padding: 0.5in 1.5in;
-    background-size: cover;
+    height:100vw;
+    padding: 10vw;
+    background-size: 100%;
     background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     background-blend-mode: multiply;
 }
@@ -129,13 +128,27 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 .play_button:hover{
     background: #2e2e2e;
 }
-#back_button,#next_button,#play_button,#mute{
+.name_of_track{
     float: left;
     height: 100%;
-    width: 7%;
+    width: 55%;
     display:flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size:1vw;
+}
+#name_of_song {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1vw;
+    float: left;
+    width: 80%;
+}
+#name_of_song span {
+    color:lightgrey;
+    overflow: hidden;
 }
 #mute{
     padding: 0 0 0 6px;
@@ -153,12 +166,7 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
     height: 18px;
     width: 100%;
 }
-#name_of_song {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    float: left;
-    width: 80%;
-}
+
 #time_of_song{
     float: right;
 }
@@ -168,6 +176,15 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 #play_of_song{
     background: #363636;
 }
+#back_button,#next_button,#play_button,#mute{
+    float: left;
+    height: 100%;
+    width: 7%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .name_of_track{
     float: left;
     height: 100%;
@@ -220,13 +237,14 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 }
 #helper {
     height:6in;
-    background: #000000 url(img/help.png) no-repeat left top fixed;
+    background: #000000 url(img/help.png) no-repeat fixed;
+    background-size: 100%;
 }
 #form {
-    padding: 30px;
-    width: 50%;
+    min-width: 375px;
+    max-width: 50%;
     height: 100%;
-    float: right;
+    float: inside;
 }
 #form h5 {
 text-align: center;
