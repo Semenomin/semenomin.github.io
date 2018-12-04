@@ -46,6 +46,7 @@ body {
     background-size: cover;
     font-size:2vw;
 }
+
 h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 #info h2 {
     font-family: 'Amatic SC', cursive;
@@ -118,125 +119,13 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
     height: 100%;
     min-height: 450px;
 }
-#music{
+.eng {
     float: left;
-    height: 100%;
-    width: 30%;
-}
-.play_button{
-    float: left;
-    height: 100%;
-    width: 15%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.play_button:hover{
-    background: #2e2e2e;
-}
-.name_of_track{
-    float: left;
-    height: 100%;
-    width: 55%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-size:1vw;
-}
-#name_of_song {
-    color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size:1vw;
-    float: left;
-    width: 80%;
-}
-#name_of_song span {
-    color:lightgrey;
-    overflow: hidden;
-}
-#mute{
-    padding: 0 0 0 6px;
-}
-#back_button:hover, #play_button:hover, #next_button:hover,#mute:hover{
-    background: #2e2e2e;
-}
-#song{
-    float: left;
-    width: 50% ;
-    height: 100%;
-}
-.song{
-    float: left;
-    height: 18px;
-    width: 100%;
-}
-
-#time_of_song{
-    float: right;
-}
-#name_of_song span {
-    color:lightgrey;
-}
-#play_of_song{
-    background: #363636;
-}
-#back_button,#next_button,#play_button,#mute{
-    float: left;
-    height: 100%;
-    width: 7%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.name_of_track{
-    float: left;
-    height: 100%;
-    width: 55%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Open Sans', sans-serif;
-    font-size: medium;
-    color: white;
-}
-.name_of_track span{
-    color:lightgrey;
-}
-.time{
-    float: left;
-    height: 100%;
-    width: 30%;
-    text-align: left;
-    font-family: 'Open Sans', sans-serif;
-    font-size: small;
-    color: white;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-#album{
-    background:url(img/album.png) no-repeat left;
-    background-size: auto 100%;
-    float: left;
-    height: 90%;
-    width: 70%;
-}
-#play{
-    float: left;
-    height: 10%;
-    width: 70%;
-}
-.track{
-    height: 10%;
-    width: 100%;
 }
 #gallery{
-    background: white;
+    background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     height:100%;
+    padding: 2%;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 9vw;
