@@ -108,7 +108,7 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 #audio{
     height:100%;
     min-height: 450px;
-    padding: 1vw;
+    padding: 1vw 1vw 0vw;
     background-size: 100%;
     background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     background-blend-mode: multiply;
