@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans+Condensed:300|Open+Sans:400,800');
+
 *{
     margin: 0;
     padding: 0;
@@ -40,7 +41,7 @@ body {
     margin-top:45%;
     background: white;
     width: auto;
-    height:80vw;
+    height:100vw;
     padding: 5% 10% 10%;
     background-size: cover;
     font-size:2vw;
@@ -105,8 +106,9 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
     height:20%;
 }
 #audio{
-    height:100vw;
-    padding: 10vw;
+    height:100%;
+    min-height: 450px;
+    padding: 1vw;
     background-size: 100%;
     background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     background-blend-mode: multiply;
@@ -229,12 +231,12 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
 }
 #gallery{
     background: white;
-    height:4in;
-    padding: 0.5in 0;
+    height:100%;
     text-align: center;
     font-family: 'Amatic SC', cursive;
-    font-size: large;
+    font-size: 9vw;
 }
+
 #helper {
     height:6in;
     background: #000000 url(img/help.png) no-repeat fixed;
