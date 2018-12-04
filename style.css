@@ -106,12 +106,19 @@ h1,h2,h3,h4,h5 { font-family: 'Amatic SC', cursive;}
     height:20%;
 }
 #audio{
-    height:100%;
+    height:50vw;
     min-height: 450px;
     padding: 1vw 1vw 0vw;
     background-size: 100%;
     background: #2e2e2e url(img/audio.png) no-repeat fixed center;
     background-blend-mode: multiply;
+}
+#audio iframe{
+    border: 0;
+    width: 40%;
+    min-width: 367px;
+    height: 100%;
+    min-height: 450px;
 }
 #music{
     float: left;
